@@ -8,6 +8,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: appBar(),
+      body: Column(
+        children: [
+          TextField()
+        ],
+      ),
     );
   }
 
